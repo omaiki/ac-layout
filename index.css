@@ -195,8 +195,6 @@ li {
   font-family: arial;
 }
 
-
-
 .promo-list .creed-text {
   width: 132px;
   margin: 10px 20px 0 0;
@@ -286,12 +284,22 @@ hover texture for promo-list items*/
 }
 
 
-/*THUMBNAIL*/
+/*THUMBNAILS*/
+
 img.pair {
     border: 1px solid #891016;
     width: 130px;
     margin: 10px;
 }
+
+img.pair-promo {
+  border: 1px solid #891016;
+  width: 130px;
+  margin: 10px;
+  height: 70%;
+}
+
+
 
 /*FOOTER*/
 
