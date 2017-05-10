@@ -179,3 +179,10 @@ li {
   vertical-align: middle;
 }
 
+.copyright {
+  font-size: 50%;
+  color: white;
+  text-transform: normal;
+  margin-top: 10px;
+}
+
