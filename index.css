@@ -11,9 +11,102 @@
     list-style: none;
 }
 
+ /*body id*/
 #homepage {
-
   background: url("ubi-background.jpg") no-repeat right center;
   background-size: cover;
+  font-family: 'Cinzel', serif;
+  color: #FFF;
+  font-family: 'Cinzel', serif;
 
 }
+
+/*container with website margin */
+.container {
+  margin: 15px auto 0;
+  width: 961px;
+}
+
+/*HEADER STYLING */
+
+.header {
+  height: 97px;
+}
+
+
+h1 {
+  height: 97px;
+  width: 255px;
+  margin-left: 22px;
+  float: left;
+}
+/*ASSASSINS CREED REVELATIONS header + span IDs */
+.rev {
+   font-size: 170%;
+   line-height: 1em;
+   margin-top: 15px;
+}
+
+#large-char-a {
+  font-size: 230%;
+}
+
+#large-char-s {
+  font-size: 230%;
+  margin-left: -5px;
+}
+
+#large-rev-char{
+  font-size: 180%;
+}
+
+#small-rev-char{
+  font-size: 180%;
+}
+
+#assassin{
+
+}
+
+#assassin-text{
+  line-height: 1em;
+  font-size: 135%;
+}
+
+#creed {
+  margin-left: 10px;
+
+}
+
+#creed-text {
+  letter-spacing: 10px;
+  margin-right: -0.4em;
+}
+
+
+.ad-panel{
+  margin: 5px 2px 0 0;
+  float: left;
+}
+
+.ad-avail{
+  background: gray; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#808080, #202020); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#808080, #202020); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#808080, #202020); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#808080, #202020); /* Standard syntax */
+  color: white;
+  font-size: 140%;
+  font-family: 'Cinzel', serif;
+  float: left;
+  height: 86px;
+  margin-top: 5px;
+  }
+
+.avail {
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+
