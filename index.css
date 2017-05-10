@@ -16,9 +16,8 @@
   background: url("ubi-background.jpg") no-repeat right center;
   background-size: cover;
   font-family: 'Cinzel', serif;
+  text-transform: normal;
   color: #FFF;
-  font-family: 'Cinzel', serif;
-
 }
 
 /*container with website margin */
@@ -64,9 +63,6 @@ h1 {
   font-size: 180%;
 }
 
-#assassin{
-
-}
 
 #assassin-text{
   line-height: 1em;
@@ -160,7 +156,73 @@ li {
   color: #E1E1E1;
 }*/
 
+/*SMALL PANEL and LARGE PANEL - CONTENT BOXES*/
 
+
+.small-panel, .large-panel {
+  width: 313px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.small-panel h2, .large-panel h2 {
+  padding: 8px 20px;
+  background-color: #891016;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: arial;
+}
+
+.small-panel ul, .large-panel ul {
+  margin: 0 6px;
+}
+
+.small-panel li, .large-panel li {
+  clear: both;
+}
+
+.small-panel .creed-text, .large-panel .creed-text {
+  width: 130px;
+  margin: 5px 15px 0 0;
+  float: right;
+  font-family: arial;
+}
+
+.small-panel h3, .large-panel h3 {
+  color: red;
+  font-size: 15px;
+}
+
+.small-panel p, .large-panel p {
+  margin-top: 4px;
+  color: #FFF;
+  font-size: 12px;
+}
+
+
+.large-panel {
+  float: right;
+  width: 636px;
+}
+
+.large-panel .creed-text {
+  width: 455px;
+}
+
+.large-panel p {
+  font-size: 11px;
+
+}
+
+/*THUMBNAIL*/
+img.pair {
+    border: 1px solid #891016;
+    width: 130px;
+    margin: 10px;
+}
 
 /*FOOTER*/
 
@@ -182,7 +244,7 @@ li {
 .copyright {
   font-size: 50%;
   color: white;
-  text-transform: normal;
+  font-family: arial;
   margin-top: 10px;
 }
 
