@@ -227,6 +227,8 @@ img.pair {
 /*FOOTER*/
 
 .footer {
+  clear: both;
+  padding: 10px 0 25px;
 }
 
 .footer-logos {
