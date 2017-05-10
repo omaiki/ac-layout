@@ -195,13 +195,15 @@ li {
   font-family: arial;
 }
 
+
+
 .promo-list .creed-text {
   width: 132px;
   margin: 10px 20px 0 0;
   float: right;
 }
 
-.promo-list h2 {
+.promo-list h3 {
   color: red;
   font-size: 15px;
 }
@@ -210,6 +212,17 @@ li {
   margin-top: 4px;
   color: #FFF;
   font-size: 11px;
+}
+
+/*
+hover texture for promo-list items*/
+ .promo-list li:HOVER, .promo-list li.active:HOVER {
+
+  background: url("ubi-background.jpg") -1500px -200px no-repeat;
+}
+
+.promo-list LI.active {
+  background: url("ubi-background.jpg") -1500px -400px no-repeat;
 }
 
 
