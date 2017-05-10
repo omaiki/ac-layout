@@ -156,9 +156,64 @@ li {
   color: #E1E1E1;
 }*/
 
+
+/*MAIN PROMO BOX */
+.main-promo {
+
+  height: 457px;
+  width: 959px;
+  margin-top: 10px;
+  position: relative;
+  border: 1px solid #000;
+
+}
+
+.promo-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 457px;
+  width: 959px;
+  background: url("ezio-altair.jpg") top left no-repeat;
+}
+
+.promo-list {
+  height: 117px;
+  position: absolute;
+  bottom: 14px;
+  left: 15px;
+  background-color: black;
+  border: 1px solid #cd1821;
+  z-index: 20;
+}
+
+.promo-list li{
+  float: left;
+  width: 308px;
+  height: 100%;
+  cursor: pointer;
+  font-family: arial;
+}
+
+.promo-list .creed-text {
+  width: 132px;
+  margin: 10px 20px 0 0;
+  float: right;
+}
+
+.promo-list h2 {
+  color: red;
+  font-size: 15px;
+}
+
+.promo-list p {
+  margin-top: 4px;
+  color: #FFF;
+  font-size: 11px;
+}
+
+
 /*SMALL PANEL and LARGE PANEL - CONTENT BOXES*/
-
-
 .small-panel, .large-panel {
   width: 313px;
   margin-top: 10px;
@@ -216,6 +271,7 @@ li {
   font-size: 11px;
 
 }
+
 
 /*THUMBNAIL*/
 img.pair {
