@@ -109,6 +109,8 @@ h1 {
 
 }
 
+/*NAVBAR */
+
 .navbar {
   font-family: arial;
   width: 959px;
@@ -158,4 +160,22 @@ li {
   color: #E1E1E1;
 }*/
 
+
+
+/*FOOTER*/
+
+.footer {
+}
+
+.footer-logos {
+  padding-top: 15px;
+  border-top: 1px solid #E1E1E1;
+  text-align: center;
+}
+
+.footer-logos>li {
+  margin: 4px 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
 
