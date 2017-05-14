@@ -9,7 +9,7 @@ $(document).ready(function(){
     });
   };
 
-  function cycleImage() {
+  function cycleActive() {
   //Check to make sure the first item exists, otherwise select the first item
   if( $('.promo-list .active').next().length > 0)
   {
@@ -28,10 +28,10 @@ $(document).ready(function(){
     $(this).addClass('active');
     changeBackgroundImage($(this).data('image'));
 
-    setTimeout(cycleImage, 5000);
+    // setTimeout(cycleActive, 5000);
   });
 
-    // var timer = setTimeout(cycleImage, 5000);
+    setInterval(cycleActive, 5000);
 
 });
 
